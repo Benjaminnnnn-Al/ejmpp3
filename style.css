@@ -1,0 +1,154 @@
+/* Diseño general */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.contenedor{
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Tarjeta login */
+.Login-card,
+.Panel{
+
+    background: white;
+    padding: 30px;
+
+    border-radius: 14px;
+
+    box-shadow: 0 4px 18px rgb(0, 0, 0, 0.2);
+}
+
+/* Títulos */
+h1,
+h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Descripción */
+.Descripción{
+    text-align: center;
+    color: black;
+    margin-bottom: 25px;
+}
+
+/* Grupo de inputs */
+.grupo{
+    margin-bottom: 18px;
+}
+
+/* Labels */
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"]{
+
+    width: 100%;
+
+    padding: 11px;
+
+    border: 1px solid black;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    box-sizing: border-box;
+}
+
+/* Efecto focus */
+input:focus{
+
+    outline: none;
+
+    border-color: rgb(17, 17, 155);
+}
+
+/* Opciones */
+.opciones{
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+
+/* Checkbox */
+.opciones input{
+    margin-right: 6px;
+}
+
+/* Botón */
+button{
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: rgb(152, 152, 235);
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+/* Hover botón */
+button:hover{
+    background: rgb(20, 20, 177);
+}
+
+/* Mensajes de error */
+.error{
+
+    display: block;
+
+    color: #dc2626;
+
+    font-size: 13px;
+
+    margin-top: 5px;
+}
+
+/* Mensaje general */
+.mensaje{
+
+    text-align: center;
+
+    font-weight: bold;
+
+    margin-top: 15px;
+}
+
+/* Input incorrecto */
+.incorrecto{
+    border-color: #dc2626;
+}
+
+/* Input correcto */
+.correcto{
+    border-color: green;
+}
+
+/* Ocultar */
+.oculto{
+    display: none;
+}
